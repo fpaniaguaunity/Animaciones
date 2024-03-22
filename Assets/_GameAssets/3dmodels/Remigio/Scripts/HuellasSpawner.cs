@@ -9,14 +9,12 @@ public class HuellasSpawner : MonoBehaviour
     public Transform transformSpawnerHuellaIzquierda;
     public Transform transformSpawnerHuellaDerecha;
     public void GenerarHuellaIzquierda(){
-        Instantiate(
-            prefabHuellaIzquierda, 
+        Instantiate(prefabHuellaIzquierda, 
             transformSpawnerHuellaIzquierda.position, 
             transformSpawnerHuellaIzquierda.rotation);
     }
     public void GenerarHuellaDerecha(){
-Instantiate(
-            prefabHuellaDerecha, 
+        Instantiate(prefabHuellaDerecha, 
             transformSpawnerHuellaDerecha.position, 
             transformSpawnerHuellaDerecha.rotation);
     }
