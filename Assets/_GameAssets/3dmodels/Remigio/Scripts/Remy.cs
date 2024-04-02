@@ -52,6 +52,12 @@ public class Remy : MonoBehaviour
     }
     void Mover()
     {
+        String animacion = GetComponent<Animator>().GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        //Si está cayendo, salimos
+        if (animacion=="Fall Flat") return;
+        //Si está levantando, salimos
+        if (animacion=="Standing Up") return;
+        //Puedes continuar
         if (v > 0)
         {
             if (corriendo)
