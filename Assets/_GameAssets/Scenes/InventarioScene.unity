@@ -567,10 +567,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 50
-    m_Right: 50
-    m_Top: 50
-    m_Bottom: 50
+    m_Left: 160
+    m_Right: 160
+    m_Top: 120
+    m_Bottom: 120
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
